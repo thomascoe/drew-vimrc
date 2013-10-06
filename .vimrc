@@ -25,6 +25,7 @@ set encoding=utf-8
 set t_Co=256
 let g:CSApprox_attr_map = { 'bold' : 'bold', 'italic' : '', 'sp' : '' }
 colorscheme molokai
+set guifont=Ubuntu\ Mono\ 13
 syntax on
 set cursorline
 set nowrap
