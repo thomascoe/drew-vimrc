@@ -45,7 +45,7 @@ set hidden
 set laststatus=2
 
 " Line End Column
-set colorcolumn=80
+set colorcolumn=81
 highlight ColorColumn ctermbg=13
 
 " Tabs
@@ -61,6 +61,12 @@ let g:indentLine_color_term = 128
 set hlsearch
 set ignorecase
 set smartcase
+
+" NERDTree
+map <C-e> :NERDTreeToggle<CR>
+let NERDTreeShowBookmarks=1
+autocmd VimEnter * NERDTree
+autocmd VimEnter * wincmd p
 
 " Miscellaneous
 set nospell
