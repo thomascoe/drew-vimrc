@@ -10,8 +10,16 @@ source ~/.vimrc_vundle
 " Bundles
 source ~/.vimrc_bundles
 
-" Enable mouse
+" Navigation
 set mouse=a
+inoremap  <Up>     <NOP>
+inoremap  <Down>   <NOP>
+inoremap  <Left>   <NOP>
+inoremap  <Right>  <NOP>
+noremap   <Up>     <NOP>
+noremap   <Down>   <NOP>
+noremap   <Left>   <NOP>
+noremap   <Right>  <NOP>
 
 " Relative line numbers
 " set rnu
@@ -24,7 +32,8 @@ set backspace=indent,eol,start
 set encoding=utf-8
 set t_Co=256
 let g:CSApprox_attr_map = { 'bold' : 'bold', 'italic' : '', 'sp' : '' }
-colorscheme molokai
+" colorscheme molokai
+colorscheme mrkn256
 set guifont=Ubuntu\ Mono\ 13
 syntax on
 set cursorline
