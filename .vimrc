@@ -20,6 +20,7 @@ noremap   <Up>     <NOP>
 noremap   <Down>   <NOP>
 noremap   <Left>   <NOP>
 noremap   <Right>  <NOP>
+nnoremap  <tab> :bn<CR>
 
 " Relative line numbers
 " set rnu
@@ -43,6 +44,7 @@ set hidden
 
 " Powerline
 set laststatus=2
+let g:airline#extensions#tabline#enabled = 1
 
 " Line End Column
 set colorcolumn=81
