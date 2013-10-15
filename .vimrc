@@ -67,8 +67,6 @@ set smartcase
 " NERDTree
 map <C-e> :NERDTreeToggle<CR>
 let NERDTreeShowBookmarks=1
-autocmd VimEnter * NERDTree
-autocmd VimEnter * wincmd p
 
 " Miscellaneous
 set nospell
