@@ -12,3 +12,5 @@ Bundle 'Yggdroot/indentLine'
 Bundle 'myusuf3/numbers.vim'
 Bundle 'spf13/vim-autoclose'
 Bundle 'terryma/vim-multiple-cursors'
+Bundle 'msanders/snipmate.vim'
+

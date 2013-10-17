@@ -68,7 +68,11 @@ set smartcase
 map <C-e> :NERDTreeToggle<CR>
 let NERDTreeShowBookmarks=1
 
+" Remove Trailing Whitespace
+nnoremap <Leader>rtw :%s/\s\+$//e<CR>
+
 " Miscellaneous
 set nospell
 set list lcs=tab:\|\ ,trail:•,extends:#,nbsp:.
+let g:autoclose_vim_commentmode = 1
 
