@@ -25,6 +25,7 @@ nnoremap  <tab> :bn<CR>
 " Relative line numbers
 " set rnu
 " set nu
+set number
 
 " Fix backspace
 set backspace=indent,eol,start
