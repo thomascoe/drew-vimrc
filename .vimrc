@@ -69,8 +69,11 @@ set smartcase
 map <C-e> :NERDTreeToggle<CR>
 let NERDTreeShowBookmarks=1
 
-" Remove Trailing Whitespace
-nnoremap <Leader>rtw :%s/\s\+$//e<CR>
+" :RTW = Remove Trailing Whitespace
+command RTW :%s/\s\+$//e
+
+" :CDC = Change to Directory of Current file
+command CDC cd %:p:h
 
 " Miscellaneous
 set nospell
