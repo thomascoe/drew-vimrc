@@ -12,6 +12,8 @@ source ~/.vimrc_bundles
 
 " Navigation
 set mouse=a
+set foldmethod=syntax
+set foldlevelstart=99
 inoremap  <Up>     <NOP>
 inoremap  <Down>   <NOP>
 inoremap  <Left>   <NOP>
@@ -21,6 +23,7 @@ noremap   <Down>   <NOP>
 noremap   <Left>   <NOP>
 noremap   <Right>  <NOP>
 nnoremap  <tab> :bn<CR>
+nnoremap  <Space>  za
 
 " Relative line numbers
 " set rnu
