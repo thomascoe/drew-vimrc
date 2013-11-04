@@ -23,6 +23,7 @@ noremap   <Down>   <NOP>
 noremap   <Left>   <NOP>
 noremap   <Right>  <NOP>
 nnoremap  <tab> :bn<CR>
+nnoremap  <S-tab> :bp<CR>
 nnoremap  <Space>  za
 
 " Relative line numbers
