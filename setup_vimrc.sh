@@ -15,9 +15,13 @@ fi;
 if [ -f ~/.vimrc_vundle ]; then
 	mv ~/.vimrc_vundle ~/.vimrc_vundle.old
 fi;
+if [ -f ~/.gvimrc ]; then
+	mv ~/.gvimrc ~/.gvimrc.old
+fi;
 
 # Create hardlinks between local vimrc files and the actual vimrc files
 ln -f .vimrc ~/
+ln -f .gvimrc ~/
 ln -f .vimrc_vundle ~/
 ln -f .vimrc_bundles ~/
 
