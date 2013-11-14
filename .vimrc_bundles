@@ -1,7 +1,6 @@
 " Bundles
 Bundle 'gmarik/vundle'
 Bundle 'flazz/vim-colorschemes'
-Bundle 'godlygeek/csapprox'
 Bundle 'scrooloose/nerdtree'
 Bundle 'scrooloose/syntastic'
 Bundle 'tpope/vim-surround'

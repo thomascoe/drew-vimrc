@@ -27,8 +27,6 @@ nnoremap  <S-tab> :bp<CR>
 nnoremap  <Space>  za
 
 " Relative line numbers
-" set rnu
-" set nu
 set number
 
 " Fix backspace
@@ -37,8 +35,6 @@ set backspace=indent,eol,start
 " Display
 set encoding=utf-8
 set t_Co=256
-let g:CSApprox_attr_map = { 'bold' : 'bold', 'italic' : '', 'sp' : '' }
-" colorscheme molokai
 colorscheme mrkn256
 set guifont=Ubuntu\ Mono\ 13
 syntax on
