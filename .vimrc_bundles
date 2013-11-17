@@ -1,4 +1,5 @@
 " Bundles
+Bundle 'Lokaltog/vim-easymotion'
 Bundle 'Yggdroot/indentLine'
 Bundle 'bling/vim-airline'
 Bundle 'flazz/vim-colorschemes'
