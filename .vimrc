@@ -78,6 +78,9 @@ command RTW :%s/\s\+$//e
 " :CDC = Change to Directory of Current file
 command CDC cd %:p:h
 
+" :TeX = Write the file, then run pdflatex on it
+command TeX :w | :!pdflatex %
+
 " Miscellaneous
 set nospell
 set list lcs=tab:\|\ ,trail:•,extends:#,nbsp:.
