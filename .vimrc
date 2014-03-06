@@ -81,6 +81,10 @@ command CDC cd %:p:h
 " :TeX = Write the file, then run pdflatex on it
 command TeX :w | :!pdflatex %
 
+" TeX Settings. Sets all TeX files to plaintex instead in order to speed up
+" Vim. Also enables wrapping for TeX files.
+autocmd FileType tex set filetype=plaintex | set wrap
+
 " Miscellaneous
 set nospell
 set list lcs=tab:\|\ ,trail:•,extends:#,nbsp:.
