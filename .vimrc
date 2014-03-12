@@ -38,7 +38,7 @@ set backspace=indent,eol,start
 " Display
 set encoding=utf-8
 set t_Co=256
-colorscheme mrkn256
+colorscheme obsidian
 set guifont=Ubuntu\ Mono\ 13
 syntax on
 set cursorline
@@ -83,7 +83,7 @@ command TeX :w | :!pdflatex %
 
 " TeX Settings. Sets all TeX files to plaintex instead in order to speed up
 " Vim. Also enables wrapping for TeX files.
-autocmd FileType tex set filetype=plaintex | set wrap
+autocmd FileType tex set filetype=plaintex | set wrap | set spell
 
 " Miscellaneous
 set nospell
