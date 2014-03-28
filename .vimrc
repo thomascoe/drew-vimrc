@@ -7,8 +7,8 @@ set nocompatible
 " Vundle
 source ~/.vimrc_vundle
 
-" Bundles
-source ~/.vimrc_bundles
+" Plugins
+source ~/.vimrc_plugins
 
 " User files (optional)
 silent! source ~/.vimrc_user
