@@ -9,8 +9,8 @@ cd $DIR
 if [ -f ~/.vimrc ]; then
 	mv ~/.vimrc ~/.vimrc.old
 fi;
-if [ -f ~/.vimrc_bundles ]; then
-	mv ~/.vimrc_bundles ~/.vimrc_bundles.old
+if [ -f ~/.vimrc_plugins ]; then
+	mv ~/.vimrc_plugins ~/.vimrc_plugins.old
 fi;
 if [ -f ~/.vimrc_vundle ]; then
 	mv ~/.vimrc_vundle ~/.vimrc_vundle.old
@@ -23,7 +23,7 @@ fi;
 ln -f .vimrc ~/
 ln -f .gvimrc ~/
 ln -f .vimrc_vundle ~/
-ln -f .vimrc_bundles ~/
+ln -f .vimrc_plugins ~/
 
 # Install Vundle (https://github.com/gmarik/vundle)
 git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle

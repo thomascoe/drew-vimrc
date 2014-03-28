@@ -1,15 +1,15 @@
 " Setup vundle
 source .vimrc_vundle
 
-" Bundles
-source .vimrc_bundles
+" Plugins
+source .vimrc_plugins
 
 " User files (optional)
 silent! source ~/.vimrc_user
 
 " Clean and install bundles
-BundleClean
-BundleInstall
+PluginClean
+PluginInstall
 
 " Quit
 qall
