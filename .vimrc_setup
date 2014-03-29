@@ -8,8 +8,8 @@ source .vimrc_plugins
 silent! source ~/.vimrc_user
 
 " Clean and install bundles
-PluginClean
-PluginInstall
+PluginClean!
+PluginInstall!
 
 " Quit
 qall
