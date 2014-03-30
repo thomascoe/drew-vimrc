@@ -89,4 +89,5 @@ autocmd FileType tex set filetype=plaintex | set wrap | set spell
 set nospell
 set list lcs=tab:\|\ ,trail:•,extends:#,nbsp:.
 let g:autoclose_vim_commentmode = 1
+set cryptmethod=blowfish
 
