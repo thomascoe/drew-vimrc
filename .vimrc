@@ -50,6 +50,11 @@ set hidden
 set laststatus=2
 let g:airline#extensions#tabline#enabled = 1
 
+" Syntastic
+let g:syntastic_c_compiler_options = '-Wall -std=c99 -pedantic'
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+
 " Line End Column
 set colorcolumn=81
 highlight ColorColumn ctermbg=13
