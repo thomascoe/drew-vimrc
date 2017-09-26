@@ -45,6 +45,7 @@ set cursorline
 set nowrap
 set splitbelow
 set hidden
+set showcmd
 
 " Powerline
 set laststatus=2
@@ -72,6 +73,7 @@ let g:indentLine_color_term = 128
 set hlsearch
 set ignorecase
 set smartcase
+set incsearch
 
 " NERDTree
 map <C-e> :NERDTreeToggle<CR>
